@@ -1,0 +1,368 @@
+/* ##################### GENERAL ##################### */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+button, input, textarea {
+    max-width: 100%;
+    font-family: inherit;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    border: none;
+    border-bottom: 2px solid #333;
+    border-radius: 0;
+    background: transparent;
+    font-size: 16px;
+    padding: 10px 0;
+    padding: 0.625rem 0;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+
+body.login-body {
+    background-color: #e6f2ff;
+}
+
+/* ################# HEADER ################ */
+
+header {
+    display: block;
+}
+
+.logo-header {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    padding-top: 4px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box-header {
+    padding: 0.2rem;
+    margin: auto;
+}
+
+.headerMenu {
+    height: 12rem;
+    width: 15rem;
+    background: rgba(36, 212, 212, 0.205);
+}
+
+/* ####################  CAROUSEL ################## */
+
+.carousel {
+    margin-bottom: 2rem;
+    z-index: 200;
+    position: relative;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 31rem;
+    background-color: #777;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+/* ################### BODY #################### */
+
+.news-home {
+    width: 100%;
+    height: 450px;
+    background-image: url("assets/side-photo.jpg");
+    background-color: #2ba77b;
+    background-size: 360px;
+}
+
+.post {
+    position: relative;
+}
+
+.post-grid {
+    text-align: center;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.post-grid {
+    height: 350px;
+    position: relative;
+    border-bottom: 2px solid;
+}
+
+.sub-div {
+    height: 1px;
+    width: 108px;
+    background: #43af8a;
+    margin: 15px 0;
+}
+
+.col.subscribe-list {
+    border: 3px solid white;
+    clear: left;
+    padding: 0;
+    margin: 1px;
+}
+
+.col.aboutPage {
+    border: 3px solid white;
+    float: right;
+    padding: 0;
+    margin: 1px;
+}
+
+.news-home-inner {
+    max-width: 450px;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.news-home-inner h2 {
+    font-size: 30px;
+    color: white;
+    text-transform: none;
+}
+
+.news-home-inner p {
+    font-size: 25px;
+    color: #2d9c6c;
+    font-family: 'DIN Next W01', sans-serif!important;
+}
+
+.news-home-inner h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.mailing-list-home {
+    overflow: hidden;
+    margin-top: 5px;
+    display: block;
+    text-align: left;
+}
+
+.mailing-list-home input {
+    background: #4db892;
+    line-height: 1;
+    border: none;
+    max-width: 260px;
+    width: 100%;
+    padding: 15px 15px 13px 15px;
+    display: inline-block;
+    margin-right: -5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'DIN Next W01', sans-serif!important;
+}
+
+.mailing-list-home button {
+    background: #defdf3;
+    border: none;
+    height: 44px;
+    width: 60px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+/* #################### FOOTER ###################### */
+
+footer.footsy {
+    background-color: rgb(208, 235, 222);
+    padding-left: 10%;
+    margin-top: 5%;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  footer.footsy h1 {
+    color: #2d9c6c;
+    font-size: 1.5rem;
+  }
+  
+  footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+  }
+  
+  footer.footsy ul li {
+    color: rgb(168, 161, 161);
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .cont-footer {
+      padding-bottom: 2%;
+  }
+
+  .text-footer {
+      font-size: 20px;
+  }
+
+  .arrow-top {
+      color: #117a8b; 
+  }
+
+  /* ############## BACK-TO-TOP ARROW ############## */
+  
+  .top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+    
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3em 3em 0;
+      border-radius: 50%;
+      padding: .25em;
+      width: 80px;
+      height: 80px;
+    background-color: transparent;
+    
+    &.show {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    &.hide {
+      visibility: hidden;
+      opacity: 0;
+    }
+  
+      svg {
+          fill: #000;
+          width: 24px;
+          height: 12px;
+      }
+  
+      &:hover {
+          background-color: #E8E8E8;
+  
+          svg {
+              fill: #000000;
+          }
+      }
+  }
+  
+  // Text meant only for screen readers.
+  .screen-reader-text {
+      position: absolute;
+      clip-path: inset(50%);
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      word-wrap: normal !important;
+      clip: rect(1px, 1px, 1px, 1px);
+  
+      &:focus {
+          display: block;
+          top: 5px;
+          left: 5px;
+          z-index: 100000; // Above WP toolbar
+          clip-path: none;
+          background-color: #eee;
+          padding: 15px 23px 14px;
+          width: auto;
+          height: auto;
+          text-decoration: none;
+          line-height: normal;
+          color: #444;
+          font-size: 1em;
+          clip: auto !important;
+      }
+  }
