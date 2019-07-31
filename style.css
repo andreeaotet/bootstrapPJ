@@ -103,9 +103,15 @@ header {
 }
 
 .headerMenu {
-    height: 12rem;
-    width: 15rem;
+    height: 40rem;
+    width: 70rem;
     background: rgba(36, 212, 212, 0.205);
+}
+
+.headerMenu a {
+    text-align: center;
+    font-size: 4rem;
+    color: #117a8b;
 }
 
 /* ####################  CAROUSEL ################## */
@@ -228,7 +234,7 @@ header {
 }
 
 .mailing-list-home input {
-    background: #4db892;
+    background: white;
     line-height: 1;
     border: none;
     max-width: 260px;
@@ -293,7 +299,7 @@ header {
 
 footer.footsy {
     background-color: rgb(210, 214, 212);
-    padding-left: 10%;
+    padding-right: 15%;
     padding-top: 3%;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
