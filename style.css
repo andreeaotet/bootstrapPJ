@@ -163,7 +163,6 @@ header {
 .post-grid {
     height: 350px;
     position: relative;
-    border-bottom: 2px solid;
 }
 
 .sub-div {
@@ -174,14 +173,14 @@ header {
 }
 
 .col.subscribe-list {
-    border: 3px solid white;
+    border: 10px solid transparent;
     clear: left;
     padding: 0;
     margin: 1px;
 }
 
 .col.aboutPage {
-    border: 3px solid white;
+    border: 10px solid transparent;
     float: right;
     padding: 0;
     margin: 1px;
@@ -253,12 +252,49 @@ header {
     vertical-align: top;
 }
 
+.newsletter {
+    padding: 50px 0;
+    background: #117a8b;
+    }
+    
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+}
+
 /* #################### FOOTER ###################### */
 
 footer.footsy {
-    background-color: rgb(208, 235, 222);
+    background-color: rgb(210, 214, 212);
     padding-left: 10%;
-    margin-top: 5%;
+    padding-top: 3%;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
@@ -275,7 +311,7 @@ footer.footsy {
   }
   
   footer.footsy ul li {
-    color: rgb(168, 161, 161);
+    color: rgb(102, 101, 101);
     font-size: 18px;
     line-height: 1.5;
   }
