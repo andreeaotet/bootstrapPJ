@@ -2,7 +2,7 @@ body{
     background-color: #ffffff;
 }
 .centered-form {
-    margin: auto;
+    /* margin: auto; */
     margin-top: 10rem;
     display: block;
     width: 400px;
@@ -13,3 +13,4 @@ body{
     box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
     padding: 8%;
 }
+
